@@ -16,7 +16,6 @@
 	display: flex;
 	flex-shrink: 0;
 	flex-direction: column;
-	justify-content: space-between;
 	box-sizing: border-box;
 	width: 616px;
 	height: auto;
@@ -29,5 +28,5 @@
 .bottomContainer {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 15vh;
+	margin-top: auto;
 }
