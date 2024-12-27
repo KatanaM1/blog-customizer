@@ -1,5 +1,5 @@
-import { ArrowButton } from 'src/components/arrow-button';
-import { Button } from 'src/components/button';
+import { ArrowButton } from 'src/ui/arrow-button';
+import { Button } from 'src/ui/button';
 
 import styles from './ArticleParamsForm.module.scss';
 import { FormEvent, useEffect, useRef, useState } from 'react';
@@ -13,10 +13,10 @@ import {
 	fontSizeOptions,
 	ArticleStateType,
 } from 'src/constants/articleProps';
-import { RadioGroup } from 'components/radio-group';
-import { Select } from 'components/select';
-import { Separator } from 'components/separator';
-import { Text } from 'components/text';
+import { RadioGroup } from 'src/ui/radio-group';
+import { Select } from 'src/ui/select';
+import { Separator } from 'src/ui/separator';
+import { Text } from 'src/ui/text';
 
 type PropsFormType = {
 	onChange: (data: ArticleStateType) => void;
